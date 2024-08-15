@@ -59,13 +59,13 @@
 
 .banner-texto {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     gap: 20px;
     color: #fff;
     text-align: center;
     background-color: #0a907770;
     border-radius: 5px;
-    padding: 25px 50px;
+    padding: 25px 25px;
     border: solid #fff 1px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .banner-texto p {
-    font-size: 25px;
+    font-size: 25px;  
 }
 
 .secao-titulo {
